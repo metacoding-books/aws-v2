@@ -1,6 +1,6 @@
 # AWS 초급 강의 두번째 배포
 
-### Springboot 2.6.6, JDK 11
+### Springboot 3.4.4, JDK 21
 - devtools
 - springweb
 - lombok

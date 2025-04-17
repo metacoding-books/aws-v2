@@ -1,13 +1,12 @@
 plugins {
-	id 'org.springframework.boot' version '2.6.6'
-	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'org.springframework.boot' version '3.4.4'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
-group = 'site.metacoding'
-// 1. 버전 직접 변경
-version = '0.0.1'
-sourceCompatibility = '11'
+group = 'com.metacoding'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '21'
 
 configurations {
 	compileOnly {
@@ -31,7 +30,6 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-// 2. plain 파일 생성하지 않는 설정
 jar {
-	enabled = false
+	enabled = false 
 }
