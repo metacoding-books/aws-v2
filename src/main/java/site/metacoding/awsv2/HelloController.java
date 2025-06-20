@@ -11,6 +11,7 @@ public class HelloController {
 
     @GetMapping("/aws/v2")
     public String hello(@RequestParam(defaultValue = "1") Integer number) {
+        // 여기 코드가 잘못됐어요 ㅎㅎ
         if (number == 1) { // info 로그
             log.info("/aws/v2 이 호출되었어요. info 로그 #####################################");
         } else if (number == -1) { // error 로그
