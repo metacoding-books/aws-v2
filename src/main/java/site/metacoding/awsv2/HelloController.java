@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    // 이 부분이 좋아요!!
     @GetMapping("/aws/v2")
     public String hello(@RequestParam(defaultValue = "1") Integer number) {
         if (number == 1) { // info 로그
