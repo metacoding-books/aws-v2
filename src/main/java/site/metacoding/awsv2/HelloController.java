@@ -19,6 +19,6 @@ public class HelloController {
             log.warn("/aws/v2 이 호출되었어요. warn 로그 #####################################");
         }
 
-        return "<h1>aws v2</h1>";
+        return "<h1>배포완성-임지우</h1>";
     }
 }
